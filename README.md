@@ -4,9 +4,7 @@ using the 64 bit version of VLC | AMD CPU
 
 ### Preface
 This may not be the best nor the official way to do this. I just found this is the most consistant and easiest way to have Blu ray discs play using VLC.
-
 The idea behind this repo is to have the required files and a beginner-friendly guide all in one convinient place to be as comprehensive as possible and easy to follow.
-
 This was made because most Software that iI've seen that claims it can run bluray's either lie, charge a stupid amount or sometimes both. 
 Most of the resources/guides for VLC I found are either out-of-date, don't work anymore, or just miss crutial details or have poor documentation (its possible that i am just dumb :p) with the occasional important resources intermitently not being accessable anymore.
 (this may not be the case anymore it has been a while since i initially made this guide)
@@ -59,17 +57,17 @@ there should be a copy of the latest keys file in this folder
 
 **NOTE:**
 
-    the AppData directory in windows is set as a hidden folder, meaning you cannot by default navigate to it. 
-    to find/access it you can do either of the following:
-	    1. Change file explorer to show hidden items by opening file explorer, clicking on the view tab at the top of the window
-	    check the "Hidden items" box in the show/hide section   
-	    2. Use the shortcut Win + r OR windows search and type 
-	    %appdata%
-	    3. Copy the path and replace <Your UserName> with your actual username on your computer. paste in file explorer path
+the AppData directory in windows is set as a hidden folder, meaning you cannot by default navigate to it. 
+to find/access it you can do either of the following:
+	1. Change file explorer to show hidden items by opening file explorer, clicking on the view tab at the top of the window
+	check the "Hidden items" box in the show/hide section   
+	2. Use the shortcut Win + r OR windows search and type 
+	%appdata%
+	3. Copy the path and replace `<Your UserName>` with your actual username on your computer. paste in file explorer path
 
-    The keysdb.cfg file included in the repo may be out of date, https://vlc-bluray.whoknowsmy.name/files/KEYDB.cfg has a version that is much bigger in size.
-    HOWEVER
-    I did not test it to see if it works and the website linked certificate has expired. So be careful.   
+The keysdb.cfg file included in the repo may be out of date, https://vlc-bluray.whoknowsmy.name/files/KEYDB.cfg has a version that is much bigger in size.
+HOWEVER
+I did not test it to see if it works and the website linked certificate has expired. So be careful.   
 
 ++++++++++++++++++++++++
 
