@@ -26,9 +26,9 @@ These files should be included within this guide.
 
 
 +++++++++++++++++++++++
-=======================
+"========================"
 INSTALLING Java8
-=======================
+"========================"
 blu rays run on java because write once run 
 everywhere mentality java has. however it is version specific,
 running on java ver. 8 
@@ -39,40 +39,52 @@ you can download a copy from java directly
 - run the java installer. 
 
 ++++++++++++++++++++++++
-========================
+"========================"
 INSTALL libaacs.dll file
-========================
+"========================"
 - find the vlc directory, path usually being
 `C:\Program Files\VideoLAN\VLC`
 - copy the libaacs.dll and paste it into the vlc directory
 
 ++++++++++++++++++++++++
-========================
+"========================"
 INSTALL keysdb.cfg file
-========================
+"========================"
+*I noticed that there is two ways of doing this. I dont know which one is the better one. you can choose to do either or. if i had to guess using ProgramData path makes it global for all users, while AppData is local for that user. Probably better to do ProgramData* 
+
+###ProgramData route###
+- go to the ProgramData directory, the path being
+`C:\ProgramData`
+- create a folder called "aacs"
+- inside the aacs folder (`C:\ProgramData\aacs`) paste the keysdb.cfg
+  
+
+##AppData route###
 - go to the AppData Roaming directory, the path being
 `C:\Users\<Your UserName>\AppData\Roaming`
 - create a folder called "aacs"
 - inside the aacs folder (`C:\Users\<Your User Name>\AppData\Roaming\aacs`) paste the keysdb.cfg
-there should be a copy of the latest keys file in this folder
+
+there should be a copy of the latest keys file in this folder, the lastest publicly available one is 52kb big (as of writing this) 
 
 
 **NOTE:**
 
-    the AppData directory in windows is set as a hidden folder, meaning you cannot by default navigate to it. 
-    to find/access it you can do either of the following:
-	    1. Change file explorer to show hidden items by opening file explorer, clicking on the view tab at the top of the window
-	    check the "Hidden items" box in the show/hide section   
-	    2. Use the shortcut Win + r OR windows search and type 
-	    %appdata%
-	    3. Copy the path and replace <Your UserName> with your actual username on your computer. paste in file explorer path
+the AppData and ProgramData directory in windows are set as a hidden folder, meaning you cannot by default navigate to it. 
+To find/access it you can do either of the following:
+    1. Change file explorer to show hidden items by opening file explorer, clicking on the view tab at the top of the window
+    check the "Hidden items" box in the show/hide section   
 
-    The keysdb.cfg file included in the repo may be out of date, https://vlc-bluray.whoknowsmy.name/files/KEYDB.cfg has a version that is much bigger in size.
-    HOWEVER
-    I did not test it to see if it works and the website linked certificate has expired. So be careful.   
+    2. Use the shortcut Win + r OR windows search and type 
+    %appdata% or %programdata%
+
+    3. Copy the path and replace `<Your UserName>` with your actual username on your computer. paste in file explorer path
+
+The keysdb.cfg file included in the repo may be out of date, https://vlc-bluray.whoknowsmy.name/files/KEYDB.cfg has a version that is much bigger in size.
+HOWEVER
+I did not test it to see if it works and the website linked certificate has expired. So be careful.   
 
 ++++++++++++++++++++++++
-
 
 
 
