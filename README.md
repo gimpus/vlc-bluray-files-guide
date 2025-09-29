@@ -4,9 +4,7 @@ using the 64 bit version of VLC | AMD CPU
 
 ### Preface
 This may not be the best nor the official way to do this. I just found this is the most consistant and easiest way to have Blu ray discs play using VLC.
-
 The idea behind this repo is to have the required files and a beginner-friendly guide all in one convinient place to be as comprehensive as possible and easy to follow.
-
 This was made because most Software that iI've seen that claims it can run bluray's either lie, charge a stupid amount or sometimes both. 
 Most of the resources/guides for VLC I found are either out-of-date, don't work anymore, or just miss crutial details or have poor documentation (its possible that i am just dumb :p) with the occasional important resources intermitently not being accessable anymore.
 (this may not be the case anymore it has been a while since i initially made this guide)
