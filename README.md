@@ -63,7 +63,7 @@ INSTALL keysdb.cfg file
 - create a folder called "aacs"
 - inside the aacs folder (`C:\Users\<Your User Name>\AppData\Roaming\aacs`) paste the keysdb.cfg
 
-there should be a copy of the latest keys file in this folder, the lastest publicly available one is 52kb big (as of writing this) 
+there should be a copy of the latest keys file in this folder, the lastest publicly available one is 50.9Mb big (as of writing this) 
 
 
 **NOTE:**
@@ -78,9 +78,6 @@ To find/access it you can do either of the following:
 
   3. Copy the path and replace `<Your UserName>` with your actual username on your computer. paste in file explorer path
 
-The keysdb.cfg file included in the repo may be out of date, https://vlc-bluray.whoknowsmy.name/files/KEYDB.cfg has a version that is much bigger in size.
-HOWEVER
-I did not test it to see if it works and the website linked certificate has expired. So be careful.   
 
 ++++++++++++++++++++++++
 
